@@ -1,0 +1,20 @@
+{
+  "name": "Pomodoro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "build": {
+    "appId": "com.minjeong.pomodoro",
+    "mac": {
+      "target": "dmg",
+      "icon": "pomodoro.icns"
+    }
+  },
+  "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^36.4.0",
+    "electron-builder": "^24.13.3"
+  }
+}

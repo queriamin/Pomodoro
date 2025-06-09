@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #000; /* 배경 검정 */
+    background-color: black; /* 배경 검정 */
     color: white; /* 기본 글씨 하양 */
   }
   
@@ -29,7 +29,7 @@ body {
   .bg {
     fill: none;
     stroke: #333;
-    stroke-width: 10;
+    stroke-width: 20;
   }
   
   .progress {
@@ -53,7 +53,13 @@ body {
   
   .controls button {
     margin: 10px;
-    padding: 10px 20px;
+    padding: 5px 20px;
     font-size: 1em;
+    background-color: white;
+  }
+
+  .controls button:hover {
+    background-color: #e74c3c;
+    color: white;
   }
   
